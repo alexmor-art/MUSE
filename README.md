@@ -19,6 +19,38 @@ Large Language Models have demonstrated remarkable capabilities across diverse d
 
 ---
 
+## 🧠 Доступ к Ollama
+
+Для использования Ollama (локального запуска больших языковых моделей) выполните следующие шаги:
+
+1. Установите Ollama:
+   ```bash
+   # Linux
+   curl -fsSL https://ollama.ai/install.sh | sh
+   
+   # macOS
+   brew install ollama
+   ```
+
+2. Запустите Ollama:
+   ```bash
+   ollama serve
+   ```
+
+3. Установите нужные модели:
+   ```bash
+   ollama pull llama2
+   ```
+
+4. Протестируйте установку:
+   ```bash
+   ollama run llama2
+   ```
+
+Дополнительные материалы по настройке и использованию Ollama находятся в файле [ollama_config.md](./ollama_config.md).
+
+---
+
 ## 🏆 Benchmark Performance
 
 MUSE ranks **#1** on [The Agent Company Benchmark Leaderboard](https://the-agent-company.com/#/leaderboard).

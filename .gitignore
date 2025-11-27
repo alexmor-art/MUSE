@@ -4,39 +4,48 @@
 __pycache__/
 *.o
 *.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-.env
-.env.local
-.env.*
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
-
 # Coverage
 coverage/
 htmlcov/
 .coverage
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.whl
+*.egg
+
+# Python
+.pytest_cache/
+.mypy_cache/
+*.py[cod]
+*$py.class
+*$pyc.class
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Compressed files
 *.zip
